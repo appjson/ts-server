@@ -1,12 +1,13 @@
 {
-  "name": "get-msg",
+  "name": "ts-server",
   "version": "1.0.0",
   "main": "main.ts",
   "author": "Steven",
   "license": "MIT",
   "scripts": {
     "start": "esno src/main.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "serve": "node dist/main.js"
   },
   "dependencies": {
     "axios": "^0.27.2",
