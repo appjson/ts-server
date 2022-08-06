@@ -18,5 +18,6 @@ yarn build
 
 ## Used Modules:
 
-- exno
+- esno
 - Express
+- axios
