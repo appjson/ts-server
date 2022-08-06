@@ -1,6 +1,6 @@
 # Get MSG
 
-> Repo: https://github.com/appjson/get-msg.git
+> Repo: https://github.com/appjson/ts-server.git
 
 ## Start
 
