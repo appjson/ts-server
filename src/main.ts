@@ -1,8 +1,15 @@
 import express from "express";
+import cron from "node-cron";
 import { getData, sendNotifi } from "./helper";
+import axios from "axios";
 
 const app = express();
 const port = 3333;
+
+cron.schedule("0 9 * * *", () => {
+  console.log("Start send message...");
+  axios.get("http://127.0.0.1:3333/send").then();
+});
 
 app.get("/", (req, res) => {
   getData().then(({ data }) => {
